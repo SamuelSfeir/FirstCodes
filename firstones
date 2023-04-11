@@ -1,0 +1,8 @@
+while True:
+    user_input = input("Type a number: ")
+    if user_input == "take me out" or user_input == "Take me out":
+        print("Gotcha! Taking you out")
+        break
+    else:
+        number = int(user_input)
+        print('There you go:',number-5)
