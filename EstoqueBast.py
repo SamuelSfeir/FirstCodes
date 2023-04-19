@@ -1,5 +1,5 @@
+print('Hi! Welcome to my stock control. Lets get started!''\n')
 while True:
-    print('Hi! Welcome to my stock control. Lets get started!''\n')
     user_input3 = int(input('Quantos bastões tem em estoque: '))
     user_input = int(input('Quantas vendas teve de 30: '))
     user_input1 = int(input('Quantas vendas teve de 20: '))
@@ -22,4 +22,5 @@ while True:
         print('Okay! Thanks for your time! Bye bye see you soon :)')
         break
     elif again_question.lower() in ['yes','y','sim','s']:
+        print('\nSure! Let me start again for you:\n')
         continue
