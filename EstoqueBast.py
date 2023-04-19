@@ -1,18 +1,14 @@
 while True:
     print('Hi! Welcome to my stock control. Lets get started!''\n')
-    user_input3 = input('Quantos bastões tem em estoque: ')
-    user_input = input('Quantas vendas teve de 30: ')
-    user_input1 = input('Quantas vendas teve de 20: ')
-    user_input2 = input('Quantas vendas teve de 10: ')
+    user_input3 = int(input('Quantos bastões tem em estoque: '))
+    user_input = int(input('Quantas vendas teve de 30: '))
+    user_input1 = int(input('Quantas vendas teve de 20: '))
+    user_input2 = int(input('Quantas vendas teve de 10: '))
     question = input('Quer saber quantos bastões foram gastos? (s/n): ')
-    user_inputint = int(user_input)
-    user_inputint1 = int(user_input1)
-    user_inputint2 = int(user_input2)
-    user_inputint3 = int(user_input3)
-    bast_30 = user_inputint * 30
-    bast_20 = user_inputint1 * 20
-    bast_10 = user_inputint2 * 10
-    estoque_bast = user_inputint3 - (bast_10 + bast_20 + bast_30)
+    bast_30 = user_input * 30
+    bast_20 = user_input1 * 20
+    bast_10 = user_input2 * 10
+    estoque_bast = user_input3 - (bast_10 + bast_20 + bast_30)
     if question.lower() in ["yes",'sim','y','s']:
             gastos = bast_10 + bast_20 + bast_30
             print('Seu estoque de bastão agora é:', estoque_bast, '\n''E hoje foram gastos:', gastos, 'bastões')
