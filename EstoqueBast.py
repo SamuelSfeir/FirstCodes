@@ -5,9 +5,7 @@ while True:
     user_input1 = int(input('Quantas vendas teve de 20: '))
     user_input2 = int(input('Quantas vendas teve de 10: '))
     question = input('Quer saber quantos bastões foram gastos? (s/n): ')
-    bast_30 = user_input * 30
-    bast_20 = user_input1 * 20
-    bast_10 = user_input2 * 10
+    bast_30, bast_20, bast_10 = user_input * 30, user_input1 * 20, user_input2 * 10
     estoque_bast = user_input3 - (bast_10 + bast_20 + bast_30)
     if question.lower() in ["yes",'sim','y','s']:
             gastos = bast_10 + bast_20 + bast_30
@@ -19,7 +17,7 @@ while True:
         continue
     again_question = input('Do you want to do it one more time? ')
     if again_question.lower() in ['no','n','não','nao']:
-        print('Okay! Thanks for your time! Bye bye see you soon :)')
+        print('\nOkay! Thanks for your time! Bye bye see you soon :)')
         break
     elif again_question.lower() in ['yes','y','sim','s']:
         print('\nSure! Let me start again for you:\n')
