@@ -1,4 +1,4 @@
-# I did this python challenge that requested a program that return the indexes that have capital letters.
+# I did this python challenge that requested a program that return only the indexes that are capital letters.
 
 # So, first I did this following one:
 
