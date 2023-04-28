@@ -15,3 +15,11 @@ def add_dots(string):
     return (string[-1])
 def remove_dots(string):
     return string.replace(".","")
+
+# And if we combine them two together, we have:
+
+def add_remove_dots(string):
+    if string.count(".") == 0:
+        return ".".join(string)
+    else:
+        return string.replace(".","")
