@@ -1,4 +1,57 @@
+ Please, select your language:
+
+
+<details>
+  <summary>English :us: </summary>
+  
 # FirstCodes
+
+## Welcome to My Very First Codes Repository
+
+This is where I started my programming journey.
+
+I started with Python, had my first contact with programming and fell madly in love.
+
+### About This Repository
+
+- **Purpose:** The purpose of this repository is to document my programming journey and share my early coding experiences.
+- **Programming Language:** Python.
+- **Type of Project:** Personal learning and experimentation.
+
+### Why FirstCodes?
+
+- If you are new to programming, know that you are not alone! This repository is aimed at beginners who are taking their first steps into the world of coding.
+- I'll share my first code snippets, small projects, and what I learned along the way.
+- Feel free to explore, learn, and grow with me as I continue my programming adventure.
+
+### How to begin
+
+If you're new to programming or Python, here are some resources to help you get started:
+
+- [Python Official Website](https://www.python.org/): Download Python and access the official documentation.
+- [Python Course on Codecademy](https://www.codecademy.com/learn/learn-python-3): An interactive Python course for beginners.
+- [Real Python](https://realpython.com/): A platform with a multitude of tutorials and articles about Python.
+
+### Feedback and Contributions
+
+- If you have any feedback, suggestions or questions, please feel free to [contact](mailto:samuel1808@hotmail.com).
+- Contributions are welcome. If you want to collaborate or make improvements to the code, create a pull request.
+
+### Talk to me
+
+- You can find me on [LinkedIn](https://www.linkedin.com/seu_perfil_linkedin).
+
+Thanks for joining me on this coding journey. Happy coding!
+
+
+  
+
+</details>
+
+<details>
+  <summary>Portuguese :brazil: </summary>
+  
+# Primeiro códigos
 
 ## Bem-vindo ao Meu Primeiro Repositório de Códigos
 
@@ -36,3 +89,12 @@ Se você é novo na programação ou em Python, aqui estão alguns recursos para
 - Você pode me encontrar no [LinkedIn](https://www.linkedin.com/seu_perfil_linkedin).
 
 Obrigado por se juntar a mim nesta jornada de codificação. Feliz codificação!
+
+</details>
+
+
+
+
+
+
+
